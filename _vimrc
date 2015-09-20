@@ -8,8 +8,7 @@ endif
 " original repos on github
 NeoBundle 'Shougo/neobundle.vim'
 NeoBundle 'vim-jp/vim-go-extra'
-
-filetype plugin indent on
+call neobundle#end()
 
 " color
 syntax on
@@ -48,4 +47,4 @@ imap { {}<LEFT>
 imap [ []<LEFT>
 imap ( ()<LEFT>
 " filetypeの自動検出(最後の方に書いた方がいいらしい)
-filetype on
+filetype plugin indent on
