@@ -1,5 +1,16 @@
 " 一旦ファイルタイプ関連を無効化する
 filetype off
+" NeoBundle
+if has('vim_starting')
+  set runtimepath+=~/.vim/bundle/neobundle.vim
+  call neobundle#begin(expand('~/.vim/bundle/'))
+endif
+" original repos on github
+NeoBundle 'Shougo/neobundle.vim'
+NeoBundle 'vim-jp/vim-go-extra'
+
+filetype plugin indent on
+
 " color
 syntax on
 " 行番号を表示
