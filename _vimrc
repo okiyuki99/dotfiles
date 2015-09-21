@@ -7,7 +7,11 @@ if has('vim_starting')
 endif
 " original repos on github
 NeoBundle 'Shougo/neobundle.vim'
+NeoBundle 'fatih/vim-go'
 NeoBundle 'vim-jp/vim-go-extra'
+NeoBundle 'Shougo/unite.vim'
+" NERDTreeを設定
+NeoBundle 'scrooloose/nerdtree'
 call neobundle#end()
 
 " color
