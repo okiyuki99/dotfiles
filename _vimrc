@@ -50,5 +50,8 @@ endif
 imap { {}<LEFT>
 imap [ []<LEFT>
 imap ( ()<LEFT>
+" キーマップ
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+
 " filetypeの自動検出(最後の方に書いた方がいいらしい)
 filetype plugin indent on
