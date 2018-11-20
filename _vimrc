@@ -57,6 +57,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'scrooloose/syntastic'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -67,4 +69,17 @@ filetype plugin indent on    " required
 "set expandtab
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
-let g:indent_guides_start_level=1 
+let g:indent_guides_start_level=1
+
+" --- jedi-vim ---"
+
+" --- syntasic ---"
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_python_checkers = ["flake8"]
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+let g:syntastic_loc_list_height = 5
