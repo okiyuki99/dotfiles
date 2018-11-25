@@ -1,0 +1,33 @@
+# docker restart
+#
+
+# command shortcut
+alias c='cd'
+alias e='exit'
+alias ls='ls --color=auto -F'
+alias ll='ls --color=auto -alh'
+alias m='more'
+alias s='ssh'
+alias p='ps aufxwww'
+alias t='tail'
+alias tf='tailf'
+alias v='vim'
+alias gp='git pull'
+alias ga='git add '
+alias gc='git commit -m '
+alias gpom='git push origin master'
+alias java8='sudo update-alternatives --config java'
+alias dpy='docker run -it --rm python:3.6-alpine /bin/sh'
+alias ana='source anaconda3/bin/activate base'
+
+# export prompt
+export PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+
+# export path
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+export PATH=$PATH:/usr/local/share/spark/bin
+
+# export docker host
+# 
