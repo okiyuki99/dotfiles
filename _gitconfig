@@ -1,0 +1,25 @@
+[user]
+  useConfigOnly = true # 強制的に各レポジトリ単位でuser.nameとuser.emailを設定させる
+  name = gingi99
+  email = test@gmail.com
+[alias]
+  a = add .
+  ach = branch -a
+  cb = checkout -b
+  cmm = commit -m 
+  l = log --date=short --pretty=format:'%C(yellow)%h %Cgreen%cd %Cblue%cn %Creset%s'
+  ll = log --stat --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cr %Cblue%cn%Cred%d %Creset%s %C(cyan)%b'
+  lg = log --graph --date=short --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cd %Cblue%cn%Cred%d %Creset%s'
+  lm = log --merges --pretty=format:'%C(yellow)%h %Cgreen%ci %Cblue%cn%Cred%d %Creset%s %C(cyan)%b'
+  plom = pull origin master
+  puom = push origin master
+  ss = status
+  ssb = status --short --branch
+[core]
+  pager = less -r
+  editor = vim
+[color]
+  ui = auto
+[grep]
+  lineNumber = true
+
