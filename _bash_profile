@@ -20,6 +20,7 @@ alias java8='sudo update-alternatives --config java'
 alias dpy='docker run -it --rm python:3.6-alpine /bin/sh'
 alias ana='source anaconda3/bin/activate base'
 alias gip='curl inet-ip.info'
+alias ju='jupyter notebook'
 
 # export prompt
 export PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
