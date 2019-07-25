@@ -5,7 +5,9 @@
 [alias]
 [alias]
   a = add .
-  ach = branch -a
+  b = branch
+  ba = branch -a
+  bd = branch -d
   c = checkout
   cb = checkout -b
   cmm = commit -m
