@@ -3,10 +3,14 @@
   name = gingi99
   email = test@gmail.com
 [alias]
+[alias]
   a = add .
   ach = branch -a
+  c = checkout
   cb = checkout -b
-  cmm = commit -m 
+  cmm = commit -m
+  d = diff
+  dh = diff HEAD^
   l = log --date=short --pretty=format:'%C(yellow)%h %Cgreen%cd %Cblue%cn %Creset%s'
   ll = log --stat --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cr %Cblue%cn%Cred%d %Creset%s %C(cyan)%b'
   lg = log --graph --date=short --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cd %Cblue%cn%Cred%d %Creset%s'
