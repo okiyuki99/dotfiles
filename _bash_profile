@@ -3,7 +3,10 @@
 
 # command shortcut
 alias c='cd'
+alias dum='du --max-depth=1 -h | sort -hr'
+alias duu='du -h -d 1 | sort -h '
 alias e='exit'
+alias h='head'
 alias ls='ls --color=auto -F'
 alias ll='ls --color=auto -alh'
 alias m='more'
@@ -12,10 +15,7 @@ alias p='ps aufxwww'
 alias t='tail'
 alias tf='tailf'
 alias v='vim'
-alias gp='git pull'
-alias ga='git add '
-alias gc='git commit -m '
-alias gpom='git push origin master'
+
 alias java8='sudo update-alternatives --config java'
 alias dpy='docker run -it --rm python:3.6-alpine /bin/sh'
 alias ana='source anaconda3/bin/activate base'
