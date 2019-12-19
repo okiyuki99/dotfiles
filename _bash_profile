@@ -22,9 +22,6 @@ alias ana='source anaconda3/bin/activate base'
 alias gip='curl inet-ip.info'
 alias ju='jupyter notebook'
 
-# export prompt
-export PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-
 # export path
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
