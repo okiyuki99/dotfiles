@@ -10,7 +10,7 @@
 ## \_tmux.conf
 - シンプルに最低限必要なものだけ
 
-## \_bash\_profile
+## _bashrc and \_bash\_profile
 - シンプルに最低限必要なものだけ
 
 ## \_gitconfig
