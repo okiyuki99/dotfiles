@@ -6,8 +6,12 @@ set number
 set ruler
 set showmatch
 set title
-
 set matchpairs& matchpairs+=<:> " add pair '<' and '>'
+
+"--- default indent setting ---"
+set tabstop=4
+set expandtab
+set shiftwidth=4
 
 "--- Backspace Delete ---"
 set backspace=indent,eol,start
